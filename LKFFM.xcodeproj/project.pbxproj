@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274778251E2DBBAC00522D9F /* LKSubBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274778241E2DBBAC00522D9F /* LKSubBaseViewController.swift */; };
+		2777A6C81E2618F500FCEC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2777A6C61E2618F500FCEC0B /* Main.storyboard */; };
+		2777A6CA1E2618F500FCEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2777A6C91E2618F500FCEC0B /* Assets.xcassets */; };
+		2777A6D81E2618F500FCEC0B /* LKFFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A6D71E2618F500FCEC0B /* LKFFMTests.swift */; };
+		2777A6E31E2618F500FCEC0B /* LKFFMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A6E21E2618F500FCEC0B /* LKFFMUITests.swift */; };
+		2777A70F1E261B4D00FCEC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7061E261B4D00FCEC0B /* AppDelegate.swift */; };
+		2777A7131E261F7400FCEC0B /* LKMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7121E261F7400FCEC0B /* LKMainViewController.swift */; };
+		2777A7191E263DD700FCEC0B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7181E263DD700FCEC0B /* Common.swift */; };
+		2777A71B1E263E0700FCEC0B /* UIView+LKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A71A1E263E0700FCEC0B /* UIView+LKExtension.swift */; };
+		2777A71F1E2643A500FCEC0B /* LKBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A71E1E2643A500FCEC0B /* LKBaseNavigationController.swift */; };
+		2777A7211E2645B000FCEC0B /* LKFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7201E2645B000FCEC0B /* LKFindViewController.swift */; };
+		2777A7231E2645CF00FCEC0B /* LKDownLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7221E2645CF00FCEC0B /* LKDownLoadViewController.swift */; };
+		2777A7251E2645DB00FCEC0B /* LKMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7241E2645DB00FCEC0B /* LKMineViewController.swift */; };
+		2777A7271E26460200FCEC0B /* LKPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7261E26460200FCEC0B /* LKPlayViewController.swift */; };
+		2777A7291E26465500FCEC0B /* LKSubScribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A7281E26465500FCEC0B /* LKSubScribeViewController.swift */; };
+		2777A72B1E264A7800FCEC0B /* UIColor+LKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A72A1E264A7800FCEC0B /* UIColor+LKExtension.swift */; };
+		2777A72D1E26515D00FCEC0B /* LKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A72C1E26515D00FCEC0B /* LKBaseViewController.swift */; };
+		2777AFF91E27922E0013BE07 /* LKNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777AFF81E27922E0013BE07 /* LKNetworkManager.swift */; };
+		278BAE5C1E2F402B001E3889 /* LKFindCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278BAE5B1E2F402B001E3889 /* LKFindCollectionViewCell.swift */; };
+		278BAE5E1E2F7348001E3889 /* UINavigationBar+alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278BAE5D1E2F7348001E3889 /* UINavigationBar+alpha.swift */; };
+		278D35711E27491000006AEA /* LKSegmentVioew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35701E27491000006AEA /* LKSegmentVioew.swift */; };
+		278D35761E2772EB00006AEA /* LKRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35751E2772EB00006AEA /* LKRecommendViewController.swift */; };
+		278D35781E27730200006AEA /* LKCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35771E27730200006AEA /* LKCategoryViewController.swift */; };
+		278D357A1E27730E00006AEA /* LKRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35791E27730E00006AEA /* LKRadioViewController.swift */; };
+		278D357C1E27731600006AEA /* LKRandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D357B1E27731600006AEA /* LKRandViewController.swift */; };
+		278D357E1E27732600006AEA /* LKAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D357D1E27732600006AEA /* LKAnchorViewController.swift */; };
+		278D35801E27759400006AEA /* LKBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D357F1E27759400006AEA /* LKBannerView.swift */; };
+		278D35831E2784BB00006AEA /* LKFindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35821E2784BB00006AEA /* LKFindModel.swift */; };
+		6F30D06C2BC983F933C200DF /* Pods_LKFFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB5FABE975146548BBB6EAB /* Pods_LKFFM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2777A6D41E2618F500FCEC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2777A6B71E2618F500FCEC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2777A6BE1E2618F500FCEC0B;
+			remoteInfo = LKFFM;
+		};
+		2777A6DF1E2618F500FCEC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2777A6B71E2618F500FCEC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2777A6BE1E2618F500FCEC0B;
+			remoteInfo = LKFFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274778241E2DBBAC00522D9F /* LKSubBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKSubBaseViewController.swift; sourceTree = "<group>"; };
+		2777A6BF1E2618F500FCEC0B /* LKFFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKFFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2777A6C71E2618F500FCEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2777A6C91E2618F500FCEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2777A6CE1E2618F500FCEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2777A6D31E2618F500FCEC0B /* LKFFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKFFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2777A6D71E2618F500FCEC0B /* LKFFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKFFMTests.swift; sourceTree = "<group>"; };
+		2777A6D91E2618F500FCEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2777A6DE1E2618F500FCEC0B /* LKFFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKFFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2777A6E21E2618F500FCEC0B /* LKFFMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKFFMUITests.swift; sourceTree = "<group>"; };
+		2777A6E41E2618F600FCEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2777A7061E261B4D00FCEC0B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2777A7121E261F7400FCEC0B /* LKMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKMainViewController.swift; sourceTree = "<group>"; };
+		2777A7181E263DD700FCEC0B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2777A71A1E263E0700FCEC0B /* UIView+LKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LKExtension.swift"; sourceTree = "<group>"; };
+		2777A71E1E2643A500FCEC0B /* LKBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKBaseNavigationController.swift; sourceTree = "<group>"; };
+		2777A7201E2645B000FCEC0B /* LKFindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKFindViewController.swift; sourceTree = "<group>"; };
+		2777A7221E2645CF00FCEC0B /* LKDownLoadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKDownLoadViewController.swift; sourceTree = "<group>"; };
+		2777A7241E2645DB00FCEC0B /* LKMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKMineViewController.swift; sourceTree = "<group>"; };
+		2777A7261E26460200FCEC0B /* LKPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKPlayViewController.swift; sourceTree = "<group>"; };
+		2777A7281E26465500FCEC0B /* LKSubScribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKSubScribeViewController.swift; sourceTree = "<group>"; };
+		2777A72A1E264A7800FCEC0B /* UIColor+LKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LKExtension.swift"; sourceTree = "<group>"; };
+		2777A72C1E26515D00FCEC0B /* LKBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKBaseViewController.swift; sourceTree = "<group>"; };
+		2777AFF81E27922E0013BE07 /* LKNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKNetworkManager.swift; sourceTree = "<group>"; };
+		278BAE5B1E2F402B001E3889 /* LKFindCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKFindCollectionViewCell.swift; sourceTree = "<group>"; };
+		278BAE5D1E2F7348001E3889 /* UINavigationBar+alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+alpha.swift"; sourceTree = "<group>"; };
+		278D35701E27491000006AEA /* LKSegmentVioew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKSegmentVioew.swift; sourceTree = "<group>"; };
+		278D35751E2772EB00006AEA /* LKRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRecommendViewController.swift; sourceTree = "<group>"; };
+		278D35771E27730200006AEA /* LKCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKCategoryViewController.swift; sourceTree = "<group>"; };
+		278D35791E27730E00006AEA /* LKRadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRadioViewController.swift; sourceTree = "<group>"; };
+		278D357B1E27731600006AEA /* LKRandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRandViewController.swift; sourceTree = "<group>"; };
+		278D357D1E27732600006AEA /* LKAnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKAnchorViewController.swift; sourceTree = "<group>"; };
+		278D357F1E27759400006AEA /* LKBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKBannerView.swift; sourceTree = "<group>"; };
+		278D35811E2776C500006AEA /* LKFMBridging-head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKFMBridging-head.h"; sourceTree = "<group>"; };
+		278D35821E2784BB00006AEA /* LKFindModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKFindModel.swift; sourceTree = "<group>"; };
+		50AE6FA93F8BEF5113E6A95E /* Pods-LKFFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKFFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKFFM/Pods-LKFFM.release.xcconfig"; sourceTree = "<group>"; };
+		B5E2F67807268E78B5516FE5 /* Pods_LKFFMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKFFMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB5AD7AFA128FAA99F81B4 /* Pods-LKFFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKFFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKFFM/Pods-LKFFM.debug.xcconfig"; sourceTree = "<group>"; };
+		E54E508AD99BE4317B84E2A7 /* Pods_LKFFMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKFFMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB5FABE975146548BBB6EAB /* Pods_LKFFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKFFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2777A6BC1E2618F500FCEC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F30D06C2BC983F933C200DF /* Pods_LKFFM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2777A6D01E2618F500FCEC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2777A6DB1E2618F500FCEC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2777A6B61E2618F500FCEC0B = {
+			isa = PBXGroup;
+			children = (
+				2777A6C11E2618F500FCEC0B /* LKFFM */,
+				2777A6D61E2618F500FCEC0B /* LKFFMTests */,
+				2777A6E11E2618F500FCEC0B /* LKFFMUITests */,
+				2777A6C01E2618F500FCEC0B /* Products */,
+				6E2E72FE970FC134F748A2D1 /* Pods */,
+				85F7833A2150068DE8CC5059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2777A6C01E2618F500FCEC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6BF1E2618F500FCEC0B /* LKFFM.app */,
+				2777A6D31E2618F500FCEC0B /* LKFFMTests.xctest */,
+				2777A6DE1E2618F500FCEC0B /* LKFFMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2777A6C11E2618F500FCEC0B /* LKFFM */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6F01E261B4D00FCEC0B /* Classes */,
+				2777A6C61E2618F500FCEC0B /* Main.storyboard */,
+				2777A6C91E2618F500FCEC0B /* Assets.xcassets */,
+				2777A6CE1E2618F500FCEC0B /* Info.plist */,
+			);
+			path = LKFFM;
+			sourceTree = "<group>";
+		};
+		2777A6D61E2618F500FCEC0B /* LKFFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6D71E2618F500FCEC0B /* LKFFMTests.swift */,
+				2777A6D91E2618F500FCEC0B /* Info.plist */,
+			);
+			path = LKFFMTests;
+			sourceTree = "<group>";
+		};
+		2777A6E11E2618F500FCEC0B /* LKFFMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6E21E2618F500FCEC0B /* LKFFMUITests.swift */,
+				2777A6E41E2618F600FCEC0B /* Info.plist */,
+			);
+			path = LKFFMUITests;
+			sourceTree = "<group>";
+		};
+		2777A6F01E261B4D00FCEC0B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6FD1E261B4D00FCEC0B /* Main-主要 */,
+				2777A6FA1E261B4D00FCEC0B /* General-通用 */,
+				2777A6F61E261B4D00FCEC0B /* Find-发现 */,
+				2777A70B1E261B4D00FCEC0B /* SubScribe-订阅听 */,
+				2777A7071E261B4D00FCEC0B /* Play-播放 */,
+				2777A6F21E261B4D00FCEC0B /* Downloader-下载听 */,
+				2777A7011E261B4D00FCEC0B /* Mine-我的 */,
+				2777A6FB1E261B4D00FCEC0B /* HTTPRequest-网络请求 */,
+				2777A6FC1E261B4D00FCEC0B /* Lib-库 */,
+				2777A6F11E261B4D00FCEC0B /* Category-分类 */,
+				2777A7051E261B4D00FCEC0B /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2777A6F11E261B4D00FCEC0B /* Category-分类 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A71A1E263E0700FCEC0B /* UIView+LKExtension.swift */,
+				2777A72A1E264A7800FCEC0B /* UIColor+LKExtension.swift */,
+				278BAE5D1E2F7348001E3889 /* UINavigationBar+alpha.swift */,
+			);
+			path = "Category-分类";
+			sourceTree = "<group>";
+		};
+		2777A6F21E261B4D00FCEC0B /* Downloader-下载听 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6F31E261B4D00FCEC0B /* Model */,
+				2777A6F41E261B4D00FCEC0B /* Viewcontrols */,
+				2777A6F51E261B4D00FCEC0B /* Views */,
+			);
+			path = "Downloader-下载听";
+			sourceTree = "<group>";
+		};
+		2777A6F31E261B4D00FCEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2777A6F41E261B4D00FCEC0B /* Viewcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7221E2645CF00FCEC0B /* LKDownLoadViewController.swift */,
+			);
+			path = Viewcontrols;
+			sourceTree = "<group>";
+		};
+		2777A6F51E261B4D00FCEC0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2777A6F61E261B4D00FCEC0B /* Find-发现 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6F71E261B4D00FCEC0B /* Model */,
+				2777A6F91E261B4D00FCEC0B /* Views */,
+				2777A6F81E261B4D00FCEC0B /* Viewcontrols */,
+			);
+			path = "Find-发现";
+			sourceTree = "<group>";
+		};
+		2777A6F71E261B4D00FCEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				278D35821E2784BB00006AEA /* LKFindModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2777A6F81E261B4D00FCEC0B /* Viewcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7201E2645B000FCEC0B /* LKFindViewController.swift */,
+				278D35721E276F5A00006AEA /* SubVcs-子控制器 */,
+			);
+			path = Viewcontrols;
+			sourceTree = "<group>";
+		};
+		2777A6F91E261B4D00FCEC0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				278D357F1E27759400006AEA /* LKBannerView.swift */,
+				278D35701E27491000006AEA /* LKSegmentVioew.swift */,
+				278BAE5B1E2F402B001E3889 /* LKFindCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2777A6FA1E261B4D00FCEC0B /* General-通用 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7181E263DD700FCEC0B /* Common.swift */,
+				278D35811E2776C500006AEA /* LKFMBridging-head.h */,
+			);
+			path = "General-通用";
+			sourceTree = "<group>";
+		};
+		2777A6FB1E261B4D00FCEC0B /* HTTPRequest-网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				2777AFF81E27922E0013BE07 /* LKNetworkManager.swift */,
+			);
+			path = "HTTPRequest-网络请求";
+			sourceTree = "<group>";
+		};
+		2777A6FC1E261B4D00FCEC0B /* Lib-库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lib-库";
+			sourceTree = "<group>";
+		};
+		2777A6FD1E261B4D00FCEC0B /* Main-主要 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A6FE1E261B4D00FCEC0B /* Model */,
+				2777A6FF1E261B4D00FCEC0B /* Viewcontrols */,
+				2777A7001E261B4D00FCEC0B /* Views */,
+			);
+			path = "Main-主要";
+			sourceTree = "<group>";
+		};
+		2777A6FE1E261B4D00FCEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2777A6FF1E261B4D00FCEC0B /* Viewcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7121E261F7400FCEC0B /* LKMainViewController.swift */,
+				2777A71E1E2643A500FCEC0B /* LKBaseNavigationController.swift */,
+				2777A72C1E26515D00FCEC0B /* LKBaseViewController.swift */,
+			);
+			path = Viewcontrols;
+			sourceTree = "<group>";
+		};
+		2777A7001E261B4D00FCEC0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2777A7011E261B4D00FCEC0B /* Mine-我的 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7021E261B4D00FCEC0B /* Model */,
+				2777A7031E261B4D00FCEC0B /* Viewcontrols */,
+				2777A7041E261B4D00FCEC0B /* Views */,
+			);
+			path = "Mine-我的";
+			sourceTree = "<group>";
+		};
+		2777A7021E261B4D00FCEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2777A7031E261B4D00FCEC0B /* Viewcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7241E2645DB00FCEC0B /* LKMineViewController.swift */,
+			);
+			path = Viewcontrols;
+			sourceTree = "<group>";
+		};
+		2777A7041E261B4D00FCEC0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2777A7051E261B4D00FCEC0B /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7061E261B4D00FCEC0B /* AppDelegate.swift */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		2777A7071E261B4D00FCEC0B /* Play-播放 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7081E261B4D00FCEC0B /* Model */,
+				2777A7091E261B4D00FCEC0B /* Viewcontrols */,
+				2777A70A1E261B4D00FCEC0B /* Views */,
+			);
+			path = "Play-播放";
+			sourceTree = "<group>";
+		};
+		2777A7081E261B4D00FCEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2777A7091E261B4D00FCEC0B /* Viewcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7261E26460200FCEC0B /* LKPlayViewController.swift */,
+			);
+			path = Viewcontrols;
+			sourceTree = "<group>";
+		};
+		2777A70A1E261B4D00FCEC0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2777A70B1E261B4D00FCEC0B /* SubScribe-订阅听 */ = {
+			isa = PBXGroup;
+			children = (
+				2777A70C1E261B4D00FCEC0B /* Model */,
+				2777A70D1E261B4D00FCEC0B /* Viewcontrols */,
+				2777A70E1E261B4D00FCEC0B /* Views */,
+			);
+			path = "SubScribe-订阅听";
+			sourceTree = "<group>";
+		};
+		2777A70C1E261B4D00FCEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2777A70D1E261B4D00FCEC0B /* Viewcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2777A7281E26465500FCEC0B /* LKSubScribeViewController.swift */,
+			);
+			path = Viewcontrols;
+			sourceTree = "<group>";
+		};
+		2777A70E1E261B4D00FCEC0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		278D35721E276F5A00006AEA /* SubVcs-子控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				274778241E2DBBAC00522D9F /* LKSubBaseViewController.swift */,
+				278D35751E2772EB00006AEA /* LKRecommendViewController.swift */,
+				278D35771E27730200006AEA /* LKCategoryViewController.swift */,
+				278D35791E27730E00006AEA /* LKRadioViewController.swift */,
+				278D357B1E27731600006AEA /* LKRandViewController.swift */,
+				278D357D1E27732600006AEA /* LKAnchorViewController.swift */,
+			);
+			name = "SubVcs-子控制器";
+			sourceTree = "<group>";
+		};
+		6E2E72FE970FC134F748A2D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB5AD7AFA128FAA99F81B4 /* Pods-LKFFM.debug.xcconfig */,
+				50AE6FA93F8BEF5113E6A95E /* Pods-LKFFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85F7833A2150068DE8CC5059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5FABE975146548BBB6EAB /* Pods_LKFFM.framework */,
+				B5E2F67807268E78B5516FE5 /* Pods_LKFFMTests.framework */,
+				E54E508AD99BE4317B84E2A7 /* Pods_LKFFMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2777A6BE1E2618F500FCEC0B /* LKFFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2777A6E71E2618F600FCEC0B /* Build configuration list for PBXNativeTarget "LKFFM" */;
+			buildPhases = (
+				2F3277CF0DE586B3D04A004F /* [CP] Check Pods Manifest.lock */,
+				2777A6BB1E2618F500FCEC0B /* Sources */,
+				2777A6BC1E2618F500FCEC0B /* Frameworks */,
+				2777A6BD1E2618F500FCEC0B /* Resources */,
+				B71342046A9B621D32FF7691 /* [CP] Embed Pods Frameworks */,
+				2AA232DD4E0F39F17672BCEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKFFM;
+			productName = LKFFM;
+			productReference = 2777A6BF1E2618F500FCEC0B /* LKFFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2777A6D21E2618F500FCEC0B /* LKFFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2777A6EA1E2618F600FCEC0B /* Build configuration list for PBXNativeTarget "LKFFMTests" */;
+			buildPhases = (
+				2777A6CF1E2618F500FCEC0B /* Sources */,
+				2777A6D01E2618F500FCEC0B /* Frameworks */,
+				2777A6D11E2618F500FCEC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2777A6D51E2618F500FCEC0B /* PBXTargetDependency */,
+			);
+			name = LKFFMTests;
+			productName = LKFFMTests;
+			productReference = 2777A6D31E2618F500FCEC0B /* LKFFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2777A6DD1E2618F500FCEC0B /* LKFFMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2777A6ED1E2618F600FCEC0B /* Build configuration list for PBXNativeTarget "LKFFMUITests" */;
+			buildPhases = (
+				2777A6DA1E2618F500FCEC0B /* Sources */,
+				2777A6DB1E2618F500FCEC0B /* Frameworks */,
+				2777A6DC1E2618F500FCEC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2777A6E01E2618F500FCEC0B /* PBXTargetDependency */,
+			);
+			name = LKFFMUITests;
+			productName = LKFFMUITests;
+			productReference = 2777A6DE1E2618F500FCEC0B /* LKFFMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2777A6B71E2618F500FCEC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LK;
+				TargetAttributes = {
+					2777A6BE1E2618F500FCEC0B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YY8ZY58SH7;
+						ProvisioningStyle = Automatic;
+					};
+					2777A6D21E2618F500FCEC0B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YY8ZY58SH7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2777A6BE1E2618F500FCEC0B;
+					};
+					2777A6DD1E2618F500FCEC0B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YY8ZY58SH7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2777A6BE1E2618F500FCEC0B;
+					};
+				};
+			};
+			buildConfigurationList = 2777A6BA1E2618F500FCEC0B /* Build configuration list for PBXProject "LKFFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2777A6B61E2618F500FCEC0B;
+			productRefGroup = 2777A6C01E2618F500FCEC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2777A6BE1E2618F500FCEC0B /* LKFFM */,
+				2777A6D21E2618F500FCEC0B /* LKFFMTests */,
+				2777A6DD1E2618F500FCEC0B /* LKFFMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2777A6BD1E2618F500FCEC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777A6CA1E2618F500FCEC0B /* Assets.xcassets in Resources */,
+				2777A6C81E2618F500FCEC0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2777A6D11E2618F500FCEC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2777A6DC1E2618F500FCEC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AA232DD4E0F39F17672BCEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKFFM/Pods-LKFFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3277CF0DE586B3D04A004F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B71342046A9B621D32FF7691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKFFM/Pods-LKFFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2777A6BB1E2618F500FCEC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278BAE5C1E2F402B001E3889 /* LKFindCollectionViewCell.swift in Sources */,
+				278D35711E27491000006AEA /* LKSegmentVioew.swift in Sources */,
+				278BAE5E1E2F7348001E3889 /* UINavigationBar+alpha.swift in Sources */,
+				278D357E1E27732600006AEA /* LKAnchorViewController.swift in Sources */,
+				2777A72B1E264A7800FCEC0B /* UIColor+LKExtension.swift in Sources */,
+				278D357C1E27731600006AEA /* LKRandViewController.swift in Sources */,
+				2777A7211E2645B000FCEC0B /* LKFindViewController.swift in Sources */,
+				278D35831E2784BB00006AEA /* LKFindModel.swift in Sources */,
+				2777A7191E263DD700FCEC0B /* Common.swift in Sources */,
+				274778251E2DBBAC00522D9F /* LKSubBaseViewController.swift in Sources */,
+				2777AFF91E27922E0013BE07 /* LKNetworkManager.swift in Sources */,
+				2777A7131E261F7400FCEC0B /* LKMainViewController.swift in Sources */,
+				2777A7231E2645CF00FCEC0B /* LKDownLoadViewController.swift in Sources */,
+				278D357A1E27730E00006AEA /* LKRadioViewController.swift in Sources */,
+				278D35801E27759400006AEA /* LKBannerView.swift in Sources */,
+				2777A7291E26465500FCEC0B /* LKSubScribeViewController.swift in Sources */,
+				2777A7271E26460200FCEC0B /* LKPlayViewController.swift in Sources */,
+				278D35761E2772EB00006AEA /* LKRecommendViewController.swift in Sources */,
+				2777A7251E2645DB00FCEC0B /* LKMineViewController.swift in Sources */,
+				2777A70F1E261B4D00FCEC0B /* AppDelegate.swift in Sources */,
+				2777A71F1E2643A500FCEC0B /* LKBaseNavigationController.swift in Sources */,
+				278D35781E27730200006AEA /* LKCategoryViewController.swift in Sources */,
+				2777A72D1E26515D00FCEC0B /* LKBaseViewController.swift in Sources */,
+				2777A71B1E263E0700FCEC0B /* UIView+LKExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2777A6CF1E2618F500FCEC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777A6D81E2618F500FCEC0B /* LKFFMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2777A6DA1E2618F500FCEC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777A6E31E2618F500FCEC0B /* LKFFMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2777A6D51E2618F500FCEC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2777A6BE1E2618F500FCEC0B /* LKFFM */;
+			targetProxy = 2777A6D41E2618F500FCEC0B /* PBXContainerItemProxy */;
+		};
+		2777A6E01E2618F500FCEC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2777A6BE1E2618F500FCEC0B /* LKFFM */;
+			targetProxy = 2777A6DF1E2618F500FCEC0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2777A6C61E2618F500FCEC0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2777A6C71E2618F500FCEC0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2777A6E51E2618F600FCEC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2777A6E61E2618F600FCEC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2777A6E81E2618F600FCEC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEB5AD7AFA128FAA99F81B4 /* Pods-LKFFM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YY8ZY58SH7;
+				INFOPLIST_FILE = LKFFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.LKFFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2777A6E91E2618F600FCEC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AE6FA93F8BEF5113E6A95E /* Pods-LKFFM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YY8ZY58SH7;
+				INFOPLIST_FILE = LKFFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.LKFFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2777A6EB1E2618F600FCEC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YY8ZY58SH7;
+				INFOPLIST_FILE = LKFFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.LKFFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKFFM.app/LKFFM";
+			};
+			name = Debug;
+		};
+		2777A6EC1E2618F600FCEC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YY8ZY58SH7;
+				INFOPLIST_FILE = LKFFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.LKFFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKFFM.app/LKFFM";
+			};
+			name = Release;
+		};
+		2777A6EE1E2618F600FCEC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YY8ZY58SH7;
+				INFOPLIST_FILE = LKFFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.LKFFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LKFFM;
+			};
+			name = Debug;
+		};
+		2777A6EF1E2618F600FCEC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YY8ZY58SH7;
+				INFOPLIST_FILE = LKFFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.LKFFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LKFFM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2777A6BA1E2618F500FCEC0B /* Build configuration list for PBXProject "LKFFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2777A6E51E2618F600FCEC0B /* Debug */,
+				2777A6E61E2618F600FCEC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2777A6E71E2618F600FCEC0B /* Build configuration list for PBXNativeTarget "LKFFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2777A6E81E2618F600FCEC0B /* Debug */,
+				2777A6E91E2618F600FCEC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2777A6EA1E2618F600FCEC0B /* Build configuration list for PBXNativeTarget "LKFFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2777A6EB1E2618F600FCEC0B /* Debug */,
+				2777A6EC1E2618F600FCEC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2777A6ED1E2618F600FCEC0B /* Build configuration list for PBXNativeTarget "LKFFMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2777A6EE1E2618F600FCEC0B /* Debug */,
+				2777A6EF1E2618F600FCEC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2777A6B71E2618F500FCEC0B /* Project object */;
+}
