@@ -141,8 +141,10 @@ extension UILabel {
 
     }
 }
-extension UIImage {
-//    func imageByApplyingAlpha(alpha: CGFloat) -> UIImage {
-//        
-//    }
+extension String {
+    func getStringHeight(string: String, fontSize: CGFloat, width: CGFloat) -> CGFloat {
+        
+        let rect = string.boundingRect(with: CGSize.init(width: width, height: CGFloat(MAXFLOAT)), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: fontSize)], context: nil)
+        return CGFloat(ceil(Float(rect.height)))
+    }
 }

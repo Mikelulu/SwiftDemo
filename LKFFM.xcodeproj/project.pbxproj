@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		274778251E2DBBAC00522D9F /* LKSubBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274778241E2DBBAC00522D9F /* LKSubBaseViewController.swift */; };
+		2759E9661E31EC5A0021ED7B /* LKSubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759E9651E31EC5A0021ED7B /* LKSubTableViewCell.swift */; };
 		2777A6C81E2618F500FCEC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2777A6C61E2618F500FCEC0B /* Main.storyboard */; };
 		2777A6CA1E2618F500FCEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2777A6C91E2618F500FCEC0B /* Assets.xcassets */; };
 		2777A6D81E2618F500FCEC0B /* LKFFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A6D71E2618F500FCEC0B /* LKFFMTests.swift */; };
@@ -25,7 +26,6 @@
 		2777A72B1E264A7800FCEC0B /* UIColor+LKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A72A1E264A7800FCEC0B /* UIColor+LKExtension.swift */; };
 		2777A72D1E26515D00FCEC0B /* LKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777A72C1E26515D00FCEC0B /* LKBaseViewController.swift */; };
 		2777AFF91E27922E0013BE07 /* LKNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777AFF81E27922E0013BE07 /* LKNetworkManager.swift */; };
-		278BAE5C1E2F402B001E3889 /* LKFindCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278BAE5B1E2F402B001E3889 /* LKFindCollectionViewCell.swift */; };
 		278BAE5E1E2F7348001E3889 /* UINavigationBar+alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278BAE5D1E2F7348001E3889 /* UINavigationBar+alpha.swift */; };
 		278D35711E27491000006AEA /* LKSegmentVioew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35701E27491000006AEA /* LKSegmentVioew.swift */; };
 		278D35761E2772EB00006AEA /* LKRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D35751E2772EB00006AEA /* LKRecommendViewController.swift */; };
@@ -57,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		274778241E2DBBAC00522D9F /* LKSubBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKSubBaseViewController.swift; sourceTree = "<group>"; };
+		2759E9651E31EC5A0021ED7B /* LKSubTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKSubTableViewCell.swift; sourceTree = "<group>"; };
 		2777A6BF1E2618F500FCEC0B /* LKFFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKFFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2777A6C71E2618F500FCEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2777A6C91E2618F500FCEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		2777A72A1E264A7800FCEC0B /* UIColor+LKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LKExtension.swift"; sourceTree = "<group>"; };
 		2777A72C1E26515D00FCEC0B /* LKBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKBaseViewController.swift; sourceTree = "<group>"; };
 		2777AFF81E27922E0013BE07 /* LKNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKNetworkManager.swift; sourceTree = "<group>"; };
-		278BAE5B1E2F402B001E3889 /* LKFindCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKFindCollectionViewCell.swift; sourceTree = "<group>"; };
 		278BAE5D1E2F7348001E3889 /* UINavigationBar+alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+alpha.swift"; sourceTree = "<group>"; };
 		278D35701E27491000006AEA /* LKSegmentVioew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKSegmentVioew.swift; sourceTree = "<group>"; };
 		278D35751E2772EB00006AEA /* LKRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRecommendViewController.swift; sourceTree = "<group>"; };
@@ -267,7 +267,7 @@
 			children = (
 				278D357F1E27759400006AEA /* LKBannerView.swift */,
 				278D35701E27491000006AEA /* LKSegmentVioew.swift */,
-				278BAE5B1E2F402B001E3889 /* LKFindCollectionViewCell.swift */,
+				2759E9651E31EC5A0021ED7B /* LKSubTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -654,7 +654,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278BAE5C1E2F402B001E3889 /* LKFindCollectionViewCell.swift in Sources */,
 				278D35711E27491000006AEA /* LKSegmentVioew.swift in Sources */,
 				278BAE5E1E2F7348001E3889 /* UINavigationBar+alpha.swift in Sources */,
 				278D357E1E27732600006AEA /* LKAnchorViewController.swift in Sources */,
@@ -662,6 +661,7 @@
 				278D357C1E27731600006AEA /* LKRandViewController.swift in Sources */,
 				2777A7211E2645B000FCEC0B /* LKFindViewController.swift in Sources */,
 				278D35831E2784BB00006AEA /* LKFindModel.swift in Sources */,
+				2759E9661E31EC5A0021ED7B /* LKSubTableViewCell.swift in Sources */,
 				2777A7191E263DD700FCEC0B /* Common.swift in Sources */,
 				274778251E2DBBAC00522D9F /* LKSubBaseViewController.swift in Sources */,
 				2777AFF91E27922E0013BE07 /* LKNetworkManager.swift in Sources */,
